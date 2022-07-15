@@ -284,4 +284,29 @@ header .logo {
   margin: 50px auto;
   width: 700px;
   height: 700px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.cell {
+  width: 68px;
+  height: 68px;
+  background: lightskyblue;
+  border: 1px solid lightskyblue;
+}
+
+.cell.top {
+  border-top: 1px solid black;
+}
+
+.cell.right {
+  border-right: 1px solid black;
+}
+
+.cell.bottom {
+  border-bottom: 1px solid black;
+}
+
+.cell.left {
+  border-left: 1px solid black;
 }
